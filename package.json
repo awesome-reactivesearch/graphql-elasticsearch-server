@@ -1,0 +1,19 @@
+{
+  "name": "graphql-es-server",
+  "version": "1.0.0",
+  "description": "Graphql server for responding to ES graphql queries",
+  "main": "index.js",
+  "author": "Lakhan Samani <lakhan.m.samani@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^15.2.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-compose": "^5.3.4",
+    "graphql-compose-elasticsearch": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
