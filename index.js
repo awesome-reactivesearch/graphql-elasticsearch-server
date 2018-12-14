@@ -12,10 +12,9 @@ const generatedSchema = new GraphQLSchema({
     name: 'Query',
     fields: {
       elastic50: elasticApiFieldConfig({
-        host: 'https://LsxvulCKp:a500b460-73ff-4882-8d34-9df8064b3b38@scalr.api.appbase.io',
-        index: 'gitxplore-latest-app',
+        host: 'https://nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d@scalr.api.appbase.io',
+        index: 'good-books-ds',
         apiVersion: '5.0',
-        log: 'trace',
       }),
     },
   }),
