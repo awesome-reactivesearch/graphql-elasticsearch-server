@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const graphqlHTTP = require('express-graphql');
 const { graphql } = require('graphql-compose');
 const { elasticApiFieldConfig } = require('graphql-compose-elasticsearch');
@@ -15,12 +16,15 @@ const generatedSchema = new GraphQLSchema({
         host: 'https://nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d@scalr.api.appbase.io',
         index: 'good-books-ds',
         apiVersion: '5.0',
+        log: 'debug',
       }),
     },
   }),
 });
 
 const server = express();
+server.use(cors());
+
 server.use(
   '/',
   graphqlHTTP({

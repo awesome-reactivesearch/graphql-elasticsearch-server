@@ -6,6 +6,7 @@
   "author": "Lakhan Samani <lakhan.m.samani@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "elasticsearch": "^15.2.0",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
