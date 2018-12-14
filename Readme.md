@@ -4,6 +4,9 @@ Simple `express-graphql` server which can respond to graphql query for [Books Se
 
 **[graphql-compose-elasticsearch](https://github.com/graphql-compose/graphql-compose-elasticsearch)** package acts as ElasticSearch Rest proxy and helps in transforming `GraphQL query` into `elasticsearch query`.
 
+## Demo
+* https://graphql-es.herokuapp.com
+
 ## How to start?
 
 * `git clone https://github.com/lakhansamani/graphql-elasticsearch-server.git`
