@@ -23,10 +23,10 @@ const generatedSchema = new GraphQLSchema({
 });
 
 const server = express();
-server.use(cors());
 
 server.use(
   '/',
+  cors(),
   graphqlHTTP({
     schema: generatedSchema,
     graphiql: true,
