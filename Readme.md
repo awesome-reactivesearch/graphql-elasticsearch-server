@@ -1,6 +1,8 @@
 # Graphql Elasticsearch Server :rocket: 
 
-Simple `express-graphql` server which can respond to graphql query for [Books Search](https://opensource.appbase.io/reactivesearch/demos/goodbooks/) elasticsearch app hosted on appbase.io.
+Simple `express-graphql` server which can respond to graphql query for [Books Search](https://opensource.appbase.io/reactivesearch/demos/goodbooks/) elasticsearch app hosted on [appbase.io](https://appbase.io). 
+
+**[graphql-compose-elasticsearch](https://github.com/graphql-compose/graphql-compose-elasticsearch)** package acts as ElasticSearch Rest proxy and helps in transforming `GraphQL query` into `elasticsearch query`.
 
 ## How to start?
 
