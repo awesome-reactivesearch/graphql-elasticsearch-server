@@ -9,7 +9,7 @@ Simple `express-graphql` server which can respond to graphql query for [Books Se
 
 ## How to start?
 
-* `git clone https://github.com/lakhansamani/graphql-elasticsearch-server.git`
+* `git clone https://github.com/appbaseio-apps/graphql-elasticsearch-server.git`
 * `cd graphql-elasticsearch-serve`
 * `yarn && yarn start`
 
