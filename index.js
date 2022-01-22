@@ -12,7 +12,7 @@ const generatedSchema = new GraphQLSchema({
   query: new GraphQLObjectType({
     name: 'Query',
     fields: {
-      elastic50: elasticApiFieldConfig({
+      elastic77: elasticApiFieldConfig({
         host: 'https://nY6NNTZZ6:27b76b9f-18ea-456c-bc5e-3a5263ebc63d@scalr.api.appbase.io',
         index: 'good-books-ds',
         apiVersion: '5.0',
@@ -21,6 +21,7 @@ const generatedSchema = new GraphQLSchema({
     },
   }),
 });
+
 
 const server = express();
 
